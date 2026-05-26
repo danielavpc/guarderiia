@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros | Guardería Pequeños Sueños</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background-color:#fffaf5;
+            color:#444;
+        }
+
+        header{
+            background-color:#ffd6e0;
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        header h1{
+            color:#ff5c8a;
+            font-size:42px;
+        }
+
+        header p{
+            font-size:18px;
+        }
+
+        .contenedor{
+            width:90%;
+            max-width:1000px;
+            margin:auto;
+            padding:40px 20px;
+        }
+
+        .sobre-nosotros{
+            display:flex;
+            flex-wrap:wrap;
+            align-items:center;
+            gap:30px;
+        }
+
+        .texto{
+            flex:1;
+        }
+
+        .texto h2{
+            color:#ff7aa2;
+            font-size:32px;
+        }
+
+        .texto p{
+            line-height:1.8;
+            font-size:17px;
+        }
+
+        .imagen{
+            flex:1;
+            text-align:center;
+        }
+
+        .imagen img{
+            width:100%;
+            max-width:400px;
+            border-radius:20px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .valores{
+            margin-top:50px;
+            text-align:center;
+        }
+
+        .valores h2{
+            color:#ff7aa2;
+            margin-bottom:30px;
+        }
+
+        .cards{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:25px;
+            width:250px;
+            border-radius:15px;
+            box-shadow:0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        .card h3{
+            color:#ff5c8a;
+        }
+
+        footer{
+            background-color:#ffd6e0;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+        @media(max-width:768px){
+            .sobre-nosotros{
+                flex-direction:column;
+            }
+
+            header h1{
+                font-size:32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Guardería Danef</h1>
+        <p>Un lugar lleno de amor, aprendizaje y diversión</p>
+    </header>
+
+    <section class="contenedor sobre-nosotros">
+
+        <div class="texto">
+            <h2>Sobre Nosotros</h2>
+
+            <p>
+                En Guardería Danef creemos que cada niño merece crecer
+                en un ambiente seguro, feliz y lleno de cariño.
+            </p>
+
+            <p>
+                Nuestro objetivo es acompañar a los pequeños en sus primeros años
+                de vida mediante actividades educativas, recreativas y creativas
+                que ayuden a desarrollar sus habilidades y confianza.
+            </p>
+
+            <p>
+                Contamos con personal capacitado, espacios seguros y un ambiente
+                familiar donde los niños aprenden jugando y creando recuerdos felices.
+            </p>
+        </div>
+
+        <div class="imagen"></div>
+
+    </section>
+
+    <section class="contenedor valores">
+
+        <h2>Nuestros Valores</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3> Amor</h3>
+                <p>Brindamos atención con cariño y respeto a cada niño.</p>
+            </div>
+
+            <div class="card">
+                <h3> Aprendizaje</h3>
+                <p>Fomentamos el desarrollo y la creatividad mediante el juego.</p>
+            </div>
+
+            <div class="card">
+                <h3> Seguridad</h3>
+                <p>Ofrecemos un ambiente seguro y confiable para todos.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&nbsp;</p>
+    </footer>
+
+</body>
+</html>
